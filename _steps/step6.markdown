@@ -12,9 +12,9 @@ Obrazki na naszą stronę dodajemy za pomocą tagu **image/obrazek** `<img>`.
 
 Dodajmy zatem logo naszej strony powyżej nagłówka `Tiny Cakes!`.
 
-Oczywiście będziemy potrzebowali jakichś obrazków. Przejdź do https://openclipart.org/detail/298756/cupcake-2 i ściągnij na swój komputer mniejszy obrazek.  Przenieś teraz plik do folderu w którym stworzyliśmy nasze strony i zmień jego nazwę na `tinycakes.png`
+Oczywiście będziemy potrzebowali jakichś obrazków. Poszukaj w google zdjęcia babeczki i ściągnij go na swój komputer.  Przenieś teraz plik do folderu w którym stworzyliśmy nasze strony i zmień jego nazwę na `tinycakes.png`
 
-Otwórz `index.html` i wklej poniższy kod przed znacznikiem  `<h1>`:
+Otwórz `index.html` i wklej poniższy po znaczniku  `</h1>`:
 
 ```html
 <img src="tinycakes.png" title="Tiny Cakes!" alt="The Tiny Cakes logo, a stylized cartoon cupcake."/>
